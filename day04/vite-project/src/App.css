@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+}
+.board-row{
+    width: 200px;
+    height: 66px;
+    /* border: 1px solid saddlebrown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap :5px;
+}
+.square{
+     width:60px;
+     aspect-ratio: 1;
+     font-size: 30px;
+     font-weight: bold;  
+ }
+
+.square:hover{
+    background: rgb(170, 229, 248);
+    cursor: pointer;
+}
