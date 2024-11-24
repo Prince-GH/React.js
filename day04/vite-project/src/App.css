@@ -22,3 +22,7 @@
     background: rgb(170, 229, 248);
     cursor: pointer;
 }
+.status{
+    color: white;
+    margin-bottom: 50px;
+}
